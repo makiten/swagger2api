@@ -50,12 +50,17 @@ Installation via GitHub
 .. code-block:: bash
     curl -o- blahblahblah.sh | bash
 
+Installation via ``apt``
+************************
+
+Coming soon!
+
 Features
 ########
 
-* Can generate code in the following languages:
-    * JavaScript (assumes you're using `axios <https://github.com/axios/axios>`_)
-* Extensible to easily include new languages
+- Can generate code in the following languages:
+    - JavaScript (assumes you're using `axios <https://github.com/axios/axios>`_)
+- Extensible to easily include new languages
 
 Development
 ###########
