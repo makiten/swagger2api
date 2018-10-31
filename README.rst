@@ -39,7 +39,7 @@ Installation via pip
 
 ``swagger2api`` should be available via `pip <https://pypi.org/project/pip/>`_:
 
-.. code:: bash
+.. code::
     pip install --user swagger2api
 
 Installation via GitHub
@@ -47,7 +47,7 @@ Installation via GitHub
 
 ``swagger2api`` should be available via `pip <https://pypi.org/project/pip/>`_:
 
-.. code:: bash
+.. code::
     curl -o- blahblahblah.sh | bash
 
 Installation via apt
@@ -58,7 +58,7 @@ Coming soon!
 Features
 ########
 
-- Can generate code in the following languages:
+- Can generate code in the following languages
     - JavaScript (assumes you're using `axios <https://github.com/axios/axios>`_)
 - Extensible to easily include new languages
 
@@ -74,7 +74,7 @@ should also have a ``convert`` method that returns ``str``. Example coming soon.
 TODO
 ####
 
-[ ] Add tests
+- Add tests
 
 License
 #######
