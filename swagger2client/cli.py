@@ -1,8 +1,8 @@
 from click import (command, echo, option, argument, File)
 from colorama import (Fore, Style)
-from message import Output
+from .message import Output
 import importlib
-import json
+# import json
 import sys
 
 
@@ -27,7 +27,7 @@ def cli(swagger, adapter):
                 'Could not convert file. Package ' +
                 Style.BRIGHT +
                 Fore.YELLOW +
-                'swagger2api.adapters.{0}'.format(adapter.lower()) +
+                'swagger2client.adapters.{0}'.format(adapter.lower()) +
                 Style.RESET_ALL +
                 ' does not exist.'
             )

@@ -1,6 +1,6 @@
-***********
-swagger2api
-***********
+**************
+swagger2client
+**************
 
 A command line tool to convert Swagger UI files to a simple, usable library for any kind of application.
 
@@ -31,8 +31,11 @@ Table of Contents
 Why?
 ####
 
-I spent most of my time manually creating APIs and SDKs using Swagger files from whatever HTTP API I'm using. A lot
+I spent most of my time manually creating clients using Swagger files from whatever HTTP API I'm using. A lot
 of the time, I needed to organize files specifically, so I didn't bother considering automating the task.
+
+``swagger-codegen`` is a great way to generate a client. I made this to generate a simpler client that I could import
+easily into a Vue project. You can check it out `here <https://github.com/swagger-api/swagger-codegen>`_.
 
 It turns out I wasn't alone, and other organizations built an ``api``-type module when connecting frontend apps
 (e.g. with Vue) to web services. Most commonly, I see one single file for working with an API, and thus grew
@@ -54,7 +57,7 @@ Installation via pip
 Installation via GitHub
 ***********************
 
-You can install ``swagger2api`` with the following command to get it straight from GitHub:
+You can install ``swagger2client`` with the following command to get it straight from GitHub:
 ::
 
     curl -o- blahblahblah.sh | bash
@@ -79,7 +82,7 @@ Development
 If you would like to add more adapters (i.e., languages to export to) or improve anything, fork and clone your repo,
 and make a PR.
 
-Specifically on adapters, every adapter should use this specific namespace ``swagger2api.adapters.<tool name>``. It
+Specifically on adapters, every adapter should use this specific namespace ``swagger2client.adapters.<tool name>``. It
 should also have a ``convert`` method that returns ``str``. Example coming soon.
 
 TODO

@@ -1,5 +1,5 @@
 export default {
 {% for f in functions %}
-   {{ f }}{% if not loop.last %},{% endfor %}
+   {{ f }}{% if not loop.last %},{% endif %}
 {% endfor %}
 }
