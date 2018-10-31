@@ -74,7 +74,7 @@ should also have a ``convert`` method that returns ``str``. Example coming soon.
 TODO
 ####
 
-* [] Add tests
+[ ] Add tests
 
 License
 #######
