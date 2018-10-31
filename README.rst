@@ -34,14 +34,13 @@ Why?
 I spent most of my time manually creating clients using Swagger files from whatever HTTP API I'm using. A lot
 of the time, I needed to organize files specifically, so I didn't bother considering automating the task.
 
-``swagger-codegen`` is a great way to generate a client. I made this to generate a simpler client that I could import
-easily into a Vue project. You can check it out `here <https://github.com/swagger-api/swagger-codegen>`_.
-
 It turns out I wasn't alone, and other organizations built an ``api``-type module when connecting frontend apps
 (e.g. with Vue) to web services. Most commonly, I see one single file for working with an API, and thus grew
 the idea of ingesting a Swagger file to output a file that allows you to call app-native functions/methods in an app
 to interface with an... interface.
 
+``swagger-codegen`` is a great way to generate a client. I made this to generate a simpler client that I could import
+easily into a Vue project. You can check it out `here <https://github.com/swagger-api/swagger-codegen>`_.
 
 Getting Started
 ###############
