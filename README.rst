@@ -11,7 +11,7 @@ Table of Contents
 2. `Getting Started`_
     * `Installation via pip`_
     * `Installation via GitHub`_
-    * `Installation via ``apt```_
+    * `Installation via apt`_
 3. `Features`_
 3. `Development`_
 3. `TODO`_
@@ -50,8 +50,8 @@ Installation via GitHub
 .. code-block:: bash
     curl -o- blahblahblah.sh | bash
 
-Installation via ``apt``
-************************
+Installation via apt
+********************
 
 Coming soon!
 
