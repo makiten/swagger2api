@@ -8,14 +8,23 @@ Table of Contents
 #################
 
 1. `Why?`_
+
 2. `Getting Started`_
+
     * `Installation via pip`_
+
     * `Installation via GitHub`_
+
     * `Installation via apt`_
+
 3. `Features`_
+
 4. `Development`_
+
 5. `TODO`_
+
 6. `License`_
+
 7. `Credits`_
 
 
@@ -59,7 +68,9 @@ Features
 ########
 
 - Can generate code in the following languages:
+
     + JavaScript (assumes you're using `axios <https://github.com/axios/axios>`_)
+
 - Extensible to easily include new languages
 
 Development
