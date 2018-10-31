@@ -38,16 +38,16 @@ Installation via pip
 ********************
 
 ``swagger2api`` should be available via `pip <https://pypi.org/project/pip/>`_:
-
 ::
+
     pip install --user swagger2api
 
 Installation via GitHub
 ***********************
 
-``swagger2api`` should be available via `pip <https://pypi.org/project/pip/>`_:
-
+You can install ``swagger2api`` with the following command to get it straight from GitHub:
 ::
+
     curl -o- blahblahblah.sh | bash
 
 Installation via apt
