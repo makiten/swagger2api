@@ -13,10 +13,10 @@ Table of Contents
     * `Installation via GitHub`_
     * `Installation via apt`_
 3. `Features`_
-3. `Development`_
-3. `TODO`_
-3. `License`_
-3. `Credits`_
+4. `Development`_
+5. `TODO`_
+6. `License`_
+7. `Credits`_
 
 
 Why?
